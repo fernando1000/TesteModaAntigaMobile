@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tableLayout_dashboard"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    
+       
+    >
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.45" >
+        
+                <TextView
+            android:id="@+id/tv_coletas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0.50"
+            android:clickable="true"
+            android:drawableTop="@drawable/ic_launcher"
+            android:gravity="center"
+            android:onClick="selecionarOpcao"
+            android:text="Opção 1"
+            android:textColor="#000"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/tv_clientes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0.50"
+            android:clickable="true"
+            android:drawableTop="@drawable/ic_launcher"
+            android:gravity="center"
+            android:onClick="selecionarOpcao"
+            android:text="Opção 2"
+            android:textColor="#000"
+            android:textStyle="bold" />
+        
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.45" >
+
+        <TextView
+            android:id="@+id/tv_relatorios"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0.50"
+            android:clickable="true"
+            android:drawableTop="@drawable/ic_launcher"
+            android:gravity="center"
+            android:onClick="selecionarOpcao"
+            android:text="Opção 3"
+            android:textColor="#000"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/tv_comunicar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0.50"
+            android:clickable="true"
+            android:drawableTop="@drawable/ic_launcher"
+            android:gravity="center"
+            android:onClick="selecionarOpcao"
+            android:text="Opção 4"
+            android:textColor="#000"
+            android:textStyle="bold" />
+    
+        
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:layout_weight="0.10" >
+
+        <TextView
+            android:id="@+id/textView_versao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+            android:gravity="end"
+            android:text="versao123123123213"
+            android:textColor="#000"
+            android:textSize="10sp" />
+    </TableRow>
+
+</TableLayout>
